@@ -98,6 +98,9 @@ html, body {
     background-size: 100%;
     background-image: url('http://puppycodes.d98r0.bysh.me/widow-install/install.jpg') !important;
     -webkit-transition: all 0.3s ease;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
     transition: all 0.3s ease;
     text-align: center;
     box-shadow: none;
@@ -146,5 +149,5 @@ margin-bottom: 20px;
 }
 a.link {
   color: white;
-
+  font-size: 13px;
 }
