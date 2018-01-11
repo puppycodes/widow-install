@@ -65,9 +65,7 @@ html, body {
    background-color: black;
 }
 
-.aplayer-music {
-  display: none;
-}
+
 
 .aplayer {
     font-family: Arial, Helvetica, sans-serif;
@@ -87,7 +85,7 @@ html, body {
     padding: 14px 7px 0 10px;
     height: 66px;
     box-sizing: border-box;
-    display: none;
+
 }
 
 .aplayer .aplayer-pic {
@@ -150,4 +148,46 @@ margin-bottom: 20px;
 a.link {
   color: white;
   font-size: 13px;
+}
+
+.aplayer-music {
+  display: none;
+}
+.aplayer-controller {
+  margin-top: 10px;
+margin-left: 5px;
+margin-right: 0px;
+}
+
+.aplayer .aplayer-info {
+    margin-left: 0px !important;
+    padding: 0px !important;
+    height: 66px;
+    box-sizing: border-box;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+    margin: 0 !important;
+    padding: 4px 0;
+    cursor: pointer !important;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-loaded {
+
+    background: blue !important;
+
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar .aplayer-played {
+background: blue !important;
+}
+
+.aplayer .aplayer-info .aplayer-controller .aplayer-bar-wrap .aplayer-bar {
+    position: relative;
+    height: 2px;
+    width: 100%;
+    background: #fff;
 }
